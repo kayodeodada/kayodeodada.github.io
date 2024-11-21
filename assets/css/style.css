@@ -136,20 +136,3 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-button.connect-button,
-button.message-button {
-    background-color: #0073b1;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 1em;
-}
-
-button.connect-button:hover,
-button.message-button:hover {
-    background-color: #005580;
-}

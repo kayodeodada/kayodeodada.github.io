@@ -48,8 +48,8 @@ body {
 }
 
 .profile-photo {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     object-fit: cover;
     margin-bottom: 15px;
@@ -58,7 +58,7 @@ body {
 .nav-list {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 20px;
 }
 
 .nav-list li {
@@ -73,6 +73,12 @@ body {
 
 .nav-list a:hover {
     text-decoration: underline;
+}
+
+.contact-details img {
+    width: 64px;
+    height: 64px;
+    margin: 10px;
 }
 
 /* Main Content Area */

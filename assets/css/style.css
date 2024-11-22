@@ -107,14 +107,16 @@ section h2 {
 }
 
 /* Work Experience, Certifications, Publications, GitHub, and Education Styles */
+.skills-list,
 .work-experience-list,
 .publication-list,
 .certification-list ul,
 .education-list {
-    list-style-type: none;
-    padding: 0;
+
+    padding: 10px;
 }
 
+.skills-list li,
 .work-experience-list li,
 .publication-list li,
 .certification-list li,
@@ -122,6 +124,7 @@ section h2 {
     margin-bottom: 20px;
 }
 
+.skills-list h3,
 .work-experience-list h3,
 .publication-list li strong,
 .certification-list li strong,
